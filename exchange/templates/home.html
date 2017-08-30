@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block work_area %}
+<div class="col-md-4">
+  <div class="card">
+    <div class="card-body">
+      <h4 class="card-title">Accounts</h4>
+       <a href="{% url 'exchange_add_account' %}" class="btn btn-primary">Create Account</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card">
+    <div class="card-body">
+      <h4 class="card-title">Deposits</h4>
+       <a href="#" class="btn btn-primary">Make Deposit</a>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card">
+    <div class="card-body">
+      <h4 class="card-title">Withdraws</h4>
+       <a href="#" class="btn btn-primary">Request Withdraw</a>
+    </div>
+  </div>
+</div> 
+{% endblock %}     
